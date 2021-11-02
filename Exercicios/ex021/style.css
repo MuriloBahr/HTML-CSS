@@ -1,0 +1,95 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;  
+}
+body{
+    background-image: linear-gradient(to bottom, #680303, #a00303, #2b0202);
+    background-attachment: fixed;
+    margin: 0px;
+}
+main{
+    margin: 0px;
+    padding: auto;
+    border: 5px white solid;
+    border-radius: 30px;
+
+}
+iframe{
+    margin: 40px 30px;
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.329);
+    border-radius: 10px;
+}
+header{
+    background-color: #1e2019c5;
+    /*color: rgb(95, 95, 95);*/
+    text-align: center;
+}
+span{
+    text-decoration: underline;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: grey;
+    text-decoration: underline;
+    background-color: black;
+    width: 900px;
+    margin: auto;
+    border-radius: 50px;
+}
+#FUUB{
+    background-color: #3d0101;
+    padding-top: auto;
+    border-radius: 30px;
+}
+p{
+    margin: 10px;
+    color: white;
+}
+ul{
+    color: white;
+    text-decoration: underline;
+}
+img{
+    border-radius: 20px;
+    width: 500px;
+    display: inline-block;
+    margin: 30px 30px;
+    padding: auto;
+}
+#guri{
+    width: 400px;
+}
+footer{
+    background-color: #3F403C;
+    text-align: center;
+    color: lightgray;
+}
+#RX550{
+    background-color:  #530303;
+    border-radius: 30px;
+}
+#AJUDA{
+    background-color: #750303;
+    border-radius: 30px;
+}
+#guriloco{
+    background-color: #690404;
+    border-radius: 30px;
+}
+iframe:hover{
+    border: rgb(255, 255, 255) solid;
+}
+#help:hover{
+    border: white solid;
+}
+h1{
+    color: grey;
+}
+section{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.603);
+}
+#rx:hover{
+    width: 1100px;
+    border: white solid;
+}

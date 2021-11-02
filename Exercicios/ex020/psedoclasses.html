@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div{
+            background-color: grey;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+        div:hover{
+            background-color: rgb(189, 136, 136);
+        }
+        p{
+            color: rgb(204, 199, 199);
+            background-color: rgb(51, 50, 50);
+            width: 100px;
+            height: 20px;
+        }
+        p:hover{
+            background-image: linear-gradient(to left, rgb(173, 173, 173), grey, grey);
+            background-attachment: fixed;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+    <p><abbr title="MARCAR COMO GOSTEI">GOSTEI</abbr></p>
+</body>    
+</html>
