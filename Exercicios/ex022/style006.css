@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body{
+    height: 100vh;
+    background: black url("imagens-ex022/wallpaper002.jpg") center no-repeat fixed;
+    background-size: cover;
+}
+main{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+}
